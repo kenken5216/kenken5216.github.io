@@ -1,0 +1,36 @@
+body {
+    background-image: url('img/WinXpWallpaper.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.center-Mypc {
+    position: absolute;
+    font-family: Tahoma;
+    font-size: 13px;
+    top: 130px;
+    left: 10px;
+    color: White;
+    -webkit-font-smoothing: none;
+
+}
+
+.center-RecycleBin {
+    position: absolute;
+    font-family: Tahoma;
+    font-size: 13px;
+    top: 55px;
+    left: 15px;
+    color: White;
+    -webkit-font-smoothing: none;
+}
+
+#time {
+    position: absolute;
+    font-family: Tahoma;
+    color: White;
+    font-size: 13px;
+    top: 726px;
+    left: 1490px;
+}
