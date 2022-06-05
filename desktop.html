@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="XP.css">
+    <title>WinXp</title>
+
+</head>
+
+<body>
+    <div class="bg">
+    </div>
+
+
+    <div class="RecycleBin">
+        &nbsp;
+        <img id="RecycleBinIMG" src="img/RecycleBin.png" alt="RecycleBin" width="65">
+        <div class="center-RecycleBin">RecycleBin</div>
+    </div>
+
+    &nbsp;
+
+    <div class="MyPC">
+        &nbsp;
+        <img id="MyPC" src="img/MyPC.png" alt="My Computer" width="65">
+        <div class="center-Mypc">My Computer</div>
+    </div>
+
+    &nbsp;
+    &nbsp;
+    &nbsp;
+    &nbsp;
+
+    <div class="center" id="MyPC_tabs" hidden>
+        <div class="window">
+            <div class="title-bar">
+                <div class="title-bar-text">About Me</div>
+                <div class="title-bar-controls">
+                    <button aria-label="Minimize"></button>
+                    <button aria-label="Maximize"></button>
+                    <button aria-label="Close" id="MyPC_tabs_close"></button>
+                </div>
+            </div>
+            <div class="window-body">
+                <menu role="tablist">
+                    <button id="first_button" aria-selected="true" aria-controls="who">Who?</button>
+                    <button id="second_button" aria-selected="false" aria-controls="second">Education</button>
+                    <button id="third_button" aria-selected="false" aria-controls="food">Skills</button>
+                </menu>
+                <article role="tabpanel" id="first_content">
+                    <br>
+                    <p style="font-size: 14px;">&nbsp;Hello,I am Sam. <br>&nbsp;I am a Computer Science student.</p>
+                    <br><br>
+                    <img id="icon" src="img/icon.jpg" width="40%" height="28%">
+                    <fieldset>
+                        <legend>EXPERIENCE</legend>
+                        <div class="field-row">
+                            <input checked type="checkbox">
+                            <label>2019/11 - 2021/9<br></label>
+                            <div>
+                                <ul>
+                                    <li>C & M A SUN KEI PRIMARY SCHOOL</li>
+                                    <li>Teaching Assistant(Part-Time)</li>
+                                    <li>Provide support as assigned by teacher</li>
+                                    <li>DreamStarter Project</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="field-row">
+                            <input checked type="checkbox">
+                            <label>2022/4 - Current</label>
+                            <div>
+                                <ul>
+                                    <li>New City Education</li>
+                                    <li>Stem Tutor(Part-Time)</li>
+                                    <li>Delivering personalized instruction to each student</li>
+                                    <li>Developing teaching materials</li>
+                                    <li>Mainly responsible for Python, C++, Java, </li>
+                                    <li>Roblox(LUA), Minecraft(MakeCode),Scratch...</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="field-row">
+                            <input type="checkbox" id="check">
+                            <label for="check">Feel free to click this checkbox :D</label>
+                        </div>
+                    </fieldset>
+                    <section class="field-row">
+                        Credit: XP.css / MIT License
+                    </section>
+                </article>
+
+                <article role="tabpanel" id="second_content" hidden="true">
+                    <ul class="tree-view">
+                        <li>Education Level</li><BR>
+                        <li>
+                            2019/09
+                            <ul>
+                                <li>GRADUATE, BUDDHIST WONG FUNG LING COLLEGE</li>
+                            </ul>
+                        </li>
+                        <li>
+                            2020/09 - CURRENT
+                            <details open>
+                                <summary>ASSOCIATE IN INFORMATION TECHNOLOGY, HKCC</summary>
+                                <ul>
+                                    <li>
+                                        <details>
+                                            <summary>Details</summary>
+                                            <ul>
+                                                <li>SEHH2041 Applied Computing - A</li>
+                                                <li>SEHH1069 Calculus and Linear Algebra - A</li>
+                                                <li>SEHH2042 Computer Programming - A-</li>
+                                                <li>SEHH2240 Database Systems - A-</li>
+                                                <li>SEHH1071 Computational Tools for Statistics - A</li>
+                                                <li>SEHH2241 Discrete Structure - A</li>
+                                                <li>SEHH2264 Computer Organisation - A-</li>
+                                                <li>SEHH2271 Intro to Human-Computer Interactions Method - A-
+                                                </li>
+                                            </ul>
+                                            <details>
+                                                <summary>Attended extra CSAO activities</summary>
+                                                <ul>
+                                                    <li>5G, Artificial Intelligence (AI) and Internet of Things (IoT)
+                                                    </li>
+                                                    <li>How to Protect Yourself in Cyber World (Cyber Security)</li>
+                                                </ul>
+                                            </details>
+                                        </details>
+                                    </li>
+                                </ul>
+                            </details>
+                        </li>
+                    </ul>
+                </article>
+
+                <article role="tabpanel" id="third_content" hidden="true">
+                    <fieldset>
+                        <div id="left-point" align="center">
+                            <table style="width:100%">
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <ul>
+                                                <li>Python</li>
+                                                <li>C++</li>
+                                                <li>JAVA</li>
+                                                <li>HTML</li>
+                                                <li>CSS</li>
+                                                <li>JavaScript</li>
+                                                <li>SQL</li>
+                                            </ul>
+                                        </td>
+                                        <td>
+                                            <ul>
+                                                <li>Microsoft Office</li>
+                                                <li>Teamwork</li>
+                                                <li>Communications</li>
+                                                <li>Presentation</li>
+                                                <li>Responsible</li>
+                                                <li>Open-Minded</li>
+                                                <li>First-Aid(HKRC)</li>
+                                            </ul>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                    </fieldset>
+                </article>
+                <section class="field-row" style="justify-content: flex-end">
+                    <button id="MyPC_tabs_ok">OK</button>
+                    <button id="MyPC_tabs_cancel">Cancel</button>
+                </section>
+            </div>
+        </div>
+
+    </div>
+    <div class="MenuBar">
+        <img id="Menubar" src="img/windowsBarWithoutTime.jpg" alt="Menu Bar" width="100%">
+        <div id="time">00:00</div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
