@@ -8,9 +8,42 @@
     <title>WinXP Loading</title>
     <link rel="stylesheet" href="loading.css">
     <link rel="stylesheet" href="XP.css">
+    <link rel="stylesheet" href="overlay.css">
+
 </head>
 
 <body>
+    <div id="overlay" onclick="off()">
+        <p id="bluetext">A problem has been detected and Windows has been shut down
+            to prevent damage
+            to your computer.<br>
+            <br>
+            UNMOUNTABLE _BOOT VOLUME<br><br>
+            If this is the first time you've seen this error screen,
+            restart your computer. If this screen appears again,follow
+            these steps:<br><br>
+            Check to make sure any new hardware or software is properly installed.<br>
+            If this is a new installation, ask your hardware or software manufacturer
+            for any Windows updates you might need.<br><br>
+            If problems continue, disable or remove any newly installed hardware
+            or software. Disable BIOS memory options such as caching or shadowing.<br>
+            If you need to use Safe Mode to remove or disable components, restart
+            your computer, press F13 to select Advanced Startup Options, and then
+            select Safe Mode.<br><br>
+            If you see this text, why are you doing this. This blue screen should be familiar to you.<br>
+            And you are so boring. Stop it, get some help.<br>
+            <br>
+            Technical Information:<br>
+            <br>
+            *** STOP: 0x000OODED (0x80F128D0, 0Xc000009c, 0x0000000,0x0000000, B64,QnkgU2Ft)<br>
+        </p>
+    </div>
+
+    <audio id="audio" hidden>
+        <source src="img/start.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
     <div class="center">
         <div class="container">
             <div class="logo">
@@ -37,11 +70,6 @@
         </div>
     </div>
 
-    <audio controls autoplay hidden>
-        <source src="img/start.mp3" type="audio/mpeg">
-        Your browser does not support the audio element.
-    </audio>
-
     <div id="enter" class="enter" hidden="true">
         <div class="window" style="width: 300px">
             <div class="title-bar">
@@ -61,6 +89,7 @@
     </div>
 
     <script src="loading.js"></script>
+    <script src="click.js"></script>
 </body>
 
 </html>
