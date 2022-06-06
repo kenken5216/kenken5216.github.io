@@ -39,11 +39,11 @@ RecycleIMG.addEventListener("mouseup", function () {
 
 MyPC.addEventListener("mousedown", function () {
     this.style.filter = "brightness(60%)";
-    MyPC_tabs.hidden = "";
 })
 
-MyPC.addEventListener("mouseup", function () {
+MyPC.addEventListener("dblclick", function () {
     this.style.filter = "brightness(100%)";
+    MyPC_tabs.hidden = "";
 })
 
 MyPC_tabs_close.addEventListener("mouseup", function () {
